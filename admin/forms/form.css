@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(224, 224, 224);
+}
+.order_form{
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 25px;
+    max-width: 800px;
+}
+
+

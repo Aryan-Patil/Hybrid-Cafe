@@ -1,0 +1,14 @@
+.nav_img{
+    width: 100px;
+}
+body{
+    background-color: rgb(224, 224, 224);
+}
+.order_form{
+    margin-top: 90px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 15px;
+}

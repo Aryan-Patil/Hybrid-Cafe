@@ -1,0 +1,118 @@
+.footer{
+    position: relative;
+    width: 100%;
+    height: 120px;
+}
+.wave{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(./images/wave.png);
+    background-size: 1000px 100px;
+}
+.wave1{
+    animation: animate1 30s linear infinite;
+    z-index: 1000;
+    opacity: 1;
+    animation-delay: 0s;
+    bottom: 0;
+}
+.wave2{
+    animation: animate2 15s linear infinite;
+    z-index: 999;
+    opacity: 0.5;
+    animation-delay: -5s;
+    bottom: 10px;
+}
+.wave3{
+    animation: animate3 10s linear infinite;
+    z-index: 998;
+    opacity: 0.3;
+    animation-delay: -2s;
+    bottom: 15px;
+}
+.wave4{
+    animation: animate4 5s linear infinite;
+    z-index: 997;
+    opacity: 0.7;
+    animation-delay: -5s;
+    bottom: 20px;
+}
+@keyframes animate1 {
+    0%
+    {
+        background-position-x: 0;
+    }
+    100%
+    {
+        background-position-x: 1000px;
+    }
+}
+@keyframes animate2 {
+    0%
+    {
+        background-position-x: 0;
+    }
+    100%
+    {
+        background-position-x: 1000px;
+    }
+}
+@keyframes animate3 {
+    0%
+    {
+        background-position-x: 0;
+    }
+    100%
+    {
+        background-position-x: 1000px;
+    }
+}
+@keyframes animate4 {
+    0%
+    {
+        background-position-x: 0;
+    }
+    100%
+    {
+        background-position-x: 1000px;
+    }
+}
+.footer_info{
+    background-color: #3586ff;
+    color: rgb(255, 255, 255);
+}
+.f_color{
+    text-decoration: none;
+    color: aliceblue;
+}
+.f_color:hover{
+    color: black;
+}
+.f_icon{
+    margin-left: 15px;
+    margin-top: 20px;
+    color: white;
+}
+.f_icon:hover{
+    color: black;
+}
+.row div div{
+    margin-top: 10px;
+}
+
+
+.ftr{
+    padding-left: 35%;
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+.ftr_icon{
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+}

@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(224, 224, 224);
+}
+.order_form{
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 25px;
+}
+.login_form{
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 25px;
+}
+.h1{
+    text-align: center; 
+    margin-top: 30px;
+}
+
+.login_img{
+    max-height: 300px;
+    align-items: center;
+}
